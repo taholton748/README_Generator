@@ -15,21 +15,25 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ${renderLicenseBadge(data.license)}
   ## Table of Contents
-  
+  * [Description](#Description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   ## Description
-
-  ## Installation
-
-  ## Usage
-
-  ## Contributing
-
-  ## Tests
-
-  ## Questions
-
   ${data.description}
-
+  ## Installation
+  ${data.installation}
+  ## Usage
+  ${data.usage}
+  ## Contributing
+  ${data.contribution}
+  ## Tests
+  ${data.tests}
+  ## Questions
+  GitHub Username: ${data.username}
+  E-mail: ${data.email}
 `;
 }
 
