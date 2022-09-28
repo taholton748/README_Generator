@@ -18,9 +18,15 @@ const questions = [
     }
   },
   {
+    type: "list",
+    name: "license",
+    message: "What license would you like to use?",
+    choices: ["MIT", "Apache", "Mozilla"]
+  },
+  {
     type: "input",
     name: "description",
-    message: "Describe your project (Required)",
+    message: "Describe your project: (Required)",
     validate: (description) => {
       if (description) {
         return true;
@@ -32,27 +38,32 @@ const questions = [
   {
     type: "input",
     name: "installation",
-    message: "Enter installation instructions",
+    message: "Enter installation instructions:",
   },
   {
     type: "input",
     name: "usage",
-    message: "Enter usage information",
+    message: "Enter usage information:",
   },
   {
     type: "input",
     name: "contribution",
-    message: "Enter contribution guidelines",
+    message: "Enter contribution guidelines:",
   },
   {
     type: "input",
     name: "tests",
-    message: "Enter test instructions",
+    message: "Enter test instructions:",
+  },
+  {
+    type: "input",
+    name: "name",
+    message: "Enter author's name: (Required)"
   },
   {
     type: "input",
     name: "username",
-    message: "What is your GitHub username? (Required)",
+    message: "Enter GitHub username: (Required)",
     validate: (userName) => {
       if (userName) {
         return true;
@@ -64,7 +75,7 @@ const questions = [
   {
     type: "input",
     name: "email",
-    message: "What is your e-mail address? (Required)",
+    message: "Enter e-mail address: (Required)",
     validate: (emailInput) => {
       if (emailInput) {
         return true;
@@ -83,7 +94,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions).then((inquirerResponses) => {
-    writeToFile("README.md", generateMarkdown({ ...inquirerResponses }));
+    console.log(inquirerResponses);
+    writeToFile("README.md", generateMarkdown(inquirerResponses));
   });
 }
 

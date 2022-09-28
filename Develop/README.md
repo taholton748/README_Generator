@@ -1,22 +1,35 @@
-# Tyler's Project
-  undefined
-  ## Table of Contents
-  * [Description](#Description)
+# README Generator
+  [![License Badge](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
+  ## Table of Contents <hr>
+  * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
-  * [Questions](#questions)
+  * [Questions](#questions) 
+  * [License](#license)<hr>
+  
   ## Description
-  I will not 
+  Project Description <hr>
+
   ## Installation
-  
+   <hr>
+
   ## Usage
-  
+   <hr>
+
   ## Contributing
-  
+   <hr>
+
   ## Tests
-  
+   <hr>
+
   ## Questions
-  GitHub Username: taholton748
-  E-mail: taholton748@yahoo.com
+  <strong>Tyler Holton</strong>
+
+  GitHub: https://github.com/taholton748
+  
+  E-mail: taholton748@yahoo.com <hr>
+  
+  ## License
+  MIT
