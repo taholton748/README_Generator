@@ -1,7 +1,7 @@
-# Project Name
+# README Generator
   [![License Badge](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
   ## Description
-  description <hr>
+  Command line application allowing a user to quickly create a professional README file for a new project by answering simple input questions <hr>
   
   ## Table of Contents
   * [Installation](#installation)
@@ -13,16 +13,16 @@
   
 
   ## Installation
-  install instructions <hr>
+  Download Node and clone the repository from GitHub. Application requires file system and inquirer modules. <hr>
 
   ## Usage
-  usage info <hr>
+   <hr>
 
   ## Contributing
-  contributing <hr>
+  Pull requests welcomed. Contact via "Questions" section to inquire about major changes. <hr>
 
   ## Tests
-  tests to run <hr>
+  No tests available currently. Contributors may add tests. <hr>
 
   ## Questions
   <strong>Tyler Holton</strong>
