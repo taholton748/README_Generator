@@ -58,7 +58,14 @@ const questions = [
   {
     type: "input",
     name: "name",
-    message: "Enter author's name: (Required)"
+    message: "Enter author's name: (Required)",
+    validate: (author) => {
+      if (author) {
+        return true;
+      } else {
+        return false;
+      }
+    },
   },
   {
     type: "input",
@@ -88,6 +95,7 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+  // /Develop/Readme.md
   return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
@@ -95,7 +103,7 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then((inquirerResponses) => {
     console.log(inquirerResponses);
-    writeToFile("README.md", generateMarkdown(inquirerResponses));
+    writeToFile("newREADME.md", generateMarkdown(inquirerResponses));
   });
 }
 

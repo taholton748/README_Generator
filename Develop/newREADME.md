@@ -1,28 +1,28 @@
-# README Generator
+# Project Name
   [![License Badge](https://img.shields.io/badge/license-MIT-blue)](https://choosealicense.com/licenses/mit/)
-  ## Table of Contents <hr>
-  * [Description](#description)
+  ## Description
+  description <hr>
+  
+  ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions) 
-  * [License](#license)<hr>
+  * [License](#license) <hr>
   
-  ## Description
-  Project Description <hr>
 
   ## Installation
-   <hr>
+  install instructions <hr>
 
   ## Usage
-   <hr>
+  usage info <hr>
 
   ## Contributing
-   <hr>
+  contributing <hr>
 
   ## Tests
-   <hr>
+  tests to run <hr>
 
   ## Questions
   <strong>Tyler Holton</strong>
@@ -32,4 +32,4 @@
   E-mail: taholton748@yahoo.com <hr>
   
   ## License
-  MIT
+  Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
